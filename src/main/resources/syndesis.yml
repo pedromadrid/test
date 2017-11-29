@@ -1,0 +1,10 @@
+---
+flows:
+- steps:
+  - kind: endpoint
+    uri: http-get
+  - kind: log
+    message: test
+    loggingLevel: INFO
+  - kind: endpoint
+    uri: http-get
